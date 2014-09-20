@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U1Y-FM-rK9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="50h-Wk-ieq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IXz-0q-54c">
@@ -57,7 +58,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5o1-VW-yeU">
@@ -101,7 +102,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="79" width="294" height="54"/>
+                                    <rect key="frame" x="16" y="79" width="294" height="49"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qi-b3-6ga">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="136" width="190" height="25"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -113,6 +123,7 @@
                                 <exclude reference="Up1-CH-6gd"/>
                                 <exclude reference="dwp-ey-2Fc"/>
                                 <exclude reference="QUj-h0-EEN"/>
+                                <exclude reference="7qi-b3-6ga"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +133,7 @@
                                 <include reference="Up1-CH-6gd"/>
                                 <include reference="dwp-ey-2Fc"/>
                                 <include reference="QUj-h0-EEN"/>
+                                <include reference="7qi-b3-6ga"/>
                             </mask>
                         </variation>
                     </view>
@@ -132,6 +144,7 @@
                         <outlet property="enternameTextField" destination="LtB-mR-fPN" id="ucL-Ge-kC0"/>
                         <outlet property="mailButton" destination="dwp-ey-2Fc" id="9H4-w7-FTc"/>
                         <outlet property="messageLabel" destination="QUj-h0-EEN" id="P9d-dK-LnB"/>
+                        <outlet property="nameLabel" destination="7qi-b3-6ga" id="V08-jE-dt7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
